@@ -6,7 +6,9 @@
     "develop": "gatsby develop",
     "start": "npm run develop",
     "build": "gatsby build",
-    "serve": "gatsby serve"
+    "serve": "gatsby serve",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "@gatsby-contrib/gatsby-plugin-elasticlunr-search": "^2.2.1",
@@ -22,6 +24,8 @@
     "react-dom": "^16.8.6",
     "react-typography": "^0.16.18",
     "typography": "^0.16.18",
-    "typography-theme-fairy-gates": "^0.15.11"
-  }
+    "typography-theme-fairy-gates": "^0.15.11",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
